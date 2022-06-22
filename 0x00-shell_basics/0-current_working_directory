@@ -1,2 +1,2 @@
 #!/bin/bash
-path=`dirname readlink -f "${BASH_SOURCE:-$0}"`
+path= $(dirname readlink -f "${BASH_SOURCE:-$0}")
